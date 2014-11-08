@@ -1,0 +1,23 @@
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/actionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/overflowButtonStyle</item>
+    </style>
+
+    <style name="SplashTheme" parent="android:Theme.Holo.Light.NoActionBar" />
+
+    <style name="overflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert</item>
+        <item name="android:minWidth">32dip</item>
+        <item name="android:padding">0dip</item>
+    </style>
+
+    <style name="actionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#0073ae</item>
+        <item name="android:textColor">#f5f5f5</item>
+    </style>
+
+    <!-- for drawables -->
+    <color name="item_selected">#fff0f0f0</color>
+</resources>

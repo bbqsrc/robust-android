@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/main_bandwidth_preferences">
+        <CheckBoxPreference android:key="low_bandwidth_images"
+            android:title="@string/title_low_bandwidth_images"
+            android:summary="@string/summary_low_bandwidth_images"/>
+        <CheckBoxPreference android:key="enable_notifications"
+            android:title="@string/title_enable_notifications"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:key="load_at_boot_time"
+            android:title="@string/title_load_at_boot_time"
+            android:summary="@string/summary_load_at_boot_time"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

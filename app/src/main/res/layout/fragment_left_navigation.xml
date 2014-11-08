@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/channels"
+            style="?android:attr/listSeparatorTextViewStyle"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/channelsList"
+            style="?android:buttonBarStyle">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/no_channels"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/controls"
+            style="?android:attr/listSeparatorTextViewStyle"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/controlsList"
+            style="?android:buttonBarStyle">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/join_channel"
+                android:paddingLeft="12dp"
+                android:id="@+id/joinChannelBtn"
+                android:gravity="left|center_vertical"
+                style="?android:attr/buttonBarButtonStyle"
+                tools:ignore="RtlSymmetry" />
+
+            <!--
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_conversation"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="12dp"
+                android:id="@+id/button"
+                style="?android:attr/buttonBarButtonStyle"/>
+                -->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

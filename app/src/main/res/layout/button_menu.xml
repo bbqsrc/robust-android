@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<so.brendan.robust.components.MenuButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?android:attr/buttonBarButtonStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:paddingLeft="12dp"
+    tools:ignore="RtlSymmetry" />
